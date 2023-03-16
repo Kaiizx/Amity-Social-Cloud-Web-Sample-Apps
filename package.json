@@ -44,6 +44,6 @@
     "vue-template-compiler": "^2.6.11"
   },
   "volta": {
-    "node": "16.17.0"
+    "node": "14.19.0"
   }
 }
