@@ -3,12 +3,12 @@
     <div class="footer-item-1" @mousedown="onMenuClicked('home')">
       <HomeIcon :active="activeTab == 'home'" />
     </div>
-    <!-- <button class="footer-item-3" @mousedown="onMenuClicked2()">
+    <button class="footer-item-3" @mousedown="onMenuClicked2()">
       <CameraIcon/>   
-    </button> -->
-    <UploadButton class="footer-item-3" @success="onupload">
+    </button>
+    <!-- <UploadButton class="footer-item-3" @success="onupload">
       <CameraIcon />
-    </UploadButton>
+    </UploadButton> -->
     <div class="footer-item-5" @mousedown="onMenuClicked('me')">
       <Avatar :active="activeTab == 'me'" :id="user.avatarFileId" />
     </div>
