@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.126f78d2b72df3e1bfe254783d2c5278.js"
+  "/precache-manifest.223cebf318a004e9fdcfb3e2e6f98a28.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue2-social-feed"});
